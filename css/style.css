@@ -1,0 +1,99 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #d8d8d8, #dededf, #e5e5e6, #ebebee, #f1f2f5, #f2f3f6, #f2f4f7, #f3f5f8, #eef0f2, #e9ebed, #e5e6e7, #e0e1e2);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: darkgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main .prodotti .foto .foto2 .foto3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.prodotti {
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+}
+
+.prodotti img {
+    width: 150px;
+    height: auto
+}
+
+.chisiamo {
+    width: 100%;
+    background-color: darkgray;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    display: block;
+}
+
+.chisiamo h2,
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.chisiamo img {
+    width: 30%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 93%;
+    justify-content: center;
+    width: 100%;
+}
+
+.contatti {
+    display: none;
+}
